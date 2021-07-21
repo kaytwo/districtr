@@ -446,7 +446,9 @@ export function spatial_abilities(id) {
         "Lori Lightfoot",
         "Toni Preckwinkle",
       ],
-      school_districts: true
+      school_districts: true,
+      municipalities: true,
+      current_districts: true
     },
     colorado: {
       number_markers: true,
