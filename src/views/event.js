@@ -867,10 +867,7 @@ const proposals_by_event = {
 };
 
 export default () => {
-    const og_eventCode = ((window.location.hostname === "localhost")
-        ? window.location.search.split("event=")[1].split("&")[0]
-        : window.location.pathname.split("/").slice(-1)[0]
-    );
+    const og_eventCode = 'carc';
     const eventCode = og_eventCode.toLowerCase();
 
     if (validEventCodes[eventCode]) {

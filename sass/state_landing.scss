@@ -106,7 +106,7 @@ figcaption {
 .place__content {
   width: 80%;
   max-width: 75rem;
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 
 .place-options {
@@ -235,6 +235,18 @@ input[type="radio"].comm:checked + label:hover {
 .site-nav__logo {
   flex: 1.5;
   padding: 0.5rem 0;
+}
+
+a.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+a.logo span {
+  padding: 0 1rem;
 }
 
 .site-nav__logo__img {
