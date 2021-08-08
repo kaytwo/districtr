@@ -1,475 +1,11 @@
 [
   {
+    "id": "chicago",
+    "name": "Chicago",
+    "state": "Illinois",
     "units": [
       {
-        "id": "precincts",
-        "name": "Precincts",
-        "unitType": "Precincts",
-        "columnSets": [
-          {
-            "type": "population",
-            "name": "Population",
-            "total": {
-              "key": "TOTPOP",
-              "name": "Total population",
-              "sum": 2695058,
-              "min": 14,
-              "max": 12308
-            },
-            "subgroups": [
-              {
-                "key": "NH_WHITE",
-                "name": "White population",
-                "sum": 854529,
-                "min": 0,
-                "max": 2754
-              },
-              {
-                "key": "NH_BLACK",
-                "name": "Black population",
-                "sum": 872007,
-                "min": 0,
-                "max": 7724
-              },
-              {
-                "key": "HISP",
-                "name": "Hispanic population",
-                "sum": 778827,
-                "min": 0,
-                "max": 3526
-              },
-              {
-                "key": "NH_ASIAN",
-                "name": "Asian population",
-                "sum": 144885,
-                "min": 0,
-                "max": 2209
-              },
-              {
-                "key": "NH_AMIN",
-                "name": "American Indian population",
-                "sum": 4095,
-                "min": 0,
-                "max": 23
-              },
-              {
-                "key": "NH_NHPI",
-                "name": "Native Hawaiian and Pacific Islander population",
-                "sum": 557,
-                "min": 0,
-                "max": 18
-              },
-              {
-                "key": "NH_2MORE",
-                "name": "Two or more races",
-                "sum": 35941,
-                "min": 0,
-                "max": 122
-              },
-              {
-                "key": "NH_OTHER",
-                "name": "Other races",
-                "sum": 4227,
-                "min": 0,
-                "max": 35
-              }
-            ]
-          },
-          {
-            "type": "population",
-            "name": "Voting Age Population",
-            "total": {
-              "key": "VAP",
-              "name": "Voting age population",
-              "sum": 2073510,
-              "min": 14,
-              "max": 11385
-            },
-            "subgroups": [
-              {
-                "key": "WVAP",
-                "name": "White voting age population",
-                "sum": 752471,
-                "min": 0,
-                "max": 2661
-              },
-              {
-                "key": "BVAP",
-                "name": "Black voting age population",
-                "sum": 643562,
-                "min": 0,
-                "max": 7442
-              },
-              {
-                "key": "HVAP",
-                "name": "Hispanic voting age population",
-                "sum": 524456,
-                "min": 0,
-                "max": 2304
-              },
-              {
-                "key": "AMINVAP",
-                "name": "Native American voting age population",
-                "sum": 3220,
-                "min": 0,
-                "max": 19
-              },
-              {
-                "key": "NHPIVAP",
-                "name": "Native Hawaiian and Pacific Islander voting age population",
-                "sum": 471,
-                "min": 0,
-                "max": 10
-              },
-              {
-                "key": "ASIANVAP",
-                "name": "Asian voting age population",
-                "sum": 122704,
-                "min": 0,
-                "max": 1793
-              },
-              {
-                "key": "OTHERVAP",
-                "name": "Other races voting age population",
-                "sum": 2937,
-                "min": 0,
-                "max": 34
-              },
-              {
-                "key": "2MOREVAP",
-                "name": "Two or more races voting age population",
-                "sum": 23705,
-                "min": 0,
-                "max": 84
-              }
-            ]
-          },
-          {
-            "type": "population",
-            "name": "Population (2019)",
-            "total": {
-              "key": "TOTPOP19",
-              "name": "Total population (2019)",
-              "sum": 2728791,
-              "min": 0,
-              "max": 12308
-            },
-            "subgroups": [
-              {
-                "key": "NH_WHITE19",
-                "name": "White population",
-                "sum": 880560,
-                "min": 0,
-                "max": 3274
-              },
-              {
-                "key": "NH_BLACK19",
-                "name": "Black population",
-                "sum": 830027,
-                "min": 0,
-                "max": 6526
-              },
-              {
-                "key": "HISP19",
-                "name": "Hispanic population",
-                "sum": 792648,
-                "min": 0,
-                "max": 4511
-              },
-              {
-                "key": "NH_ASIAN19",
-                "name": "Asian population",
-                "sum": 167248,
-                "min": 0,
-                "max": 2147
-              },
-              {
-                "key": "NH_AMIN19",
-                "name": "American Indian population",
-                "sum": 3054,
-                "min": 0,
-                "max": 149
-              },
-              {
-                "key": "NH_NHPI19",
-                "name": "Native Hawaiian and Pacific Islander population",
-                "sum": 454,
-                "min": 0,
-                "max": 51
-              },
-              {
-                "key": "NH_2MORE19",
-                "name": "Two or more races",
-                "sum": 48942,
-                "min": 0,
-                "max": 298
-              },
-              {
-                "key": "NH_OTHER19",
-                "name": "Other races",
-                "sum": 5821,
-                "min": 0,
-                "max": 114
-              }
-            ]
-          },
-          {
-            "type": "election",
-            "name": "2015 Mayoral Runoff",
-            "subgroups": [
-              {
-                "key": "RO_E15",
-                "name": "Rahm Emanuel",
-                "sum": 332171,
-                "min": 12,
-                "max": 446
-              },
-              {
-                "key": "RO_G15",
-                "name": "Jesus \u201cChuy\u201d Garc\u00eda",
-                "sum": 258562,
-                "min": 6,
-                "max": 410
-              }
-            ]
-          },
-          {
-            "type": "election",
-            "name": "2019 Mayoral Runoff",
-            "subgroups": [
-              {
-                "key": "MAY19LL",
-                "name": "Lori Lightfoot",
-                "sum": 386039,
-                "min": 8,
-                "max": 474
-              },
-              {
-                "key": "MAY19TP",
-                "name": "Toni Preckwinkle",
-                "sum": 137765,
-                "min": 6,
-                "max": 303
-              }
-            ]
-          }
-        ],
-        "idColumn": {
-          "name": "ID",
-          "key": "JOINID"
-        },
-        "bounds": [
-          [
-            -87.9401,
-            41.6445
-          ],
-          [
-            -87.5241,
-            42.023
-          ]
-        ],
-        "tilesets": [
-          {
-            "type": "circle",
-            "source": {
-              "type": "vector",
-              "url": "mapbox://districtr.chicago2019_precincts_points"
-            },
-            "sourceLayer": "chicago2019_precincts_points"
-          },
-          {
-            "type": "fill",
-            "source": {
-              "type": "vector",
-              "url": "mapbox://districtr.chicago2019_precincts"
-            },
-            "sourceLayer": "chicago2019_precincts"
-          }
-        ]
-      },
-      {
-        "id": "community_areas",
-        "name": "Community Areas",
-        "unitType": "Community Areas",
-        "columnSets": [
-          {
-            "type": "population",
-            "name": "Population",
-            "total": {
-              "key": "TOTPOP",
-              "name": "Total population",
-              "sum": 2695015,
-              "min": 2917,
-              "max": 98503
-            },
-            "subgroups": [
-              {
-                "key": "NH_WHITE",
-                "name": "White population",
-                "sum": 854489,
-                "min": 19,
-                "max": 75836
-              },
-              {
-                "key": "NH_BLACK",
-                "name": "Black population",
-                "sum": 871967,
-                "min": 28,
-                "max": 83836
-              },
-              {
-                "key": "HISP",
-                "name": "Hispanic population",
-                "sum": 778787,
-                "min": 20,
-                "max": 65461
-              },
-              {
-                "key": "NH_ASIAN",
-                "name": "Asian population",
-                "sum": 144844,
-                "min": 0,
-                "max": 16182
-              },
-              {
-                "key": "NH_AMIN",
-                "name": "American Indian population",
-                "sum": 4060,
-                "min": 0,
-                "max": 190
-              },
-              {
-                "key": "NH_NHPI",
-                "name": "Native Hawaiian and Pacific Islander population",
-                "sum": 543,
-                "min": 0,
-                "max": 43
-              },
-              {
-                "key": "NH_2MORE",
-                "name": "Two or more races",
-                "sum": 35899,
-                "min": 26,
-                "max": 1918
-              },
-              {
-                "key": "NH_OTHER",
-                "name": "Other races",
-                "sum": 4195,
-                "min": 0,
-                "max": 224
-              }
-            ]
-          },
-          {
-            "type": "population",
-            "name": "Voting Age Population",
-            "total": {
-              "key": "VAP",
-              "name": "Voting age population",
-              "sum": 2073463,
-              "min": 2121,
-              "max": 85746
-            },
-            "subgroups": [
-              {
-                "key": "WVAP",
-                "name": "White voting age population",
-                "sum": 752425,
-                "min": 18,
-                "max": 69746
-              },
-              {
-                "key": "BVAP",
-                "name": "Black voting age population",
-                "sum": 643519,
-                "min": 20,
-                "max": 60990
-              },
-              {
-                "key": "HVAP",
-                "name": "Hispanic voting age population",
-                "sum": 524414,
-                "min": 11,
-                "max": 43193
-              },
-              {
-                "key": "AMINVAP",
-                "name": "Native American voting age population",
-                "sum": 3184,
-                "min": 0,
-                "max": 171
-              },
-              {
-                "key": "NHPIVAP",
-                "name": "Native Hawaiian and Pacific Islander voting age population",
-                "sum": 457,
-                "min": 0,
-                "max": 42
-              },
-              {
-                "key": "ASIANVAP",
-                "name": "Asian voting age population",
-                "sum": 122664,
-                "min": 0,
-                "max": 12215
-              },
-              {
-                "key": "OTHERVAP",
-                "name": "Other races voting age population",
-                "sum": 2906,
-                "min": 0,
-                "max": 165
-              },
-              {
-                "key": "2MOREVAP",
-                "name": "Two or more races voting age population",
-                "sum": 23666,
-                "min": 20,
-                "max": 1235
-              }
-            ]
-          }
-        ],
-        "idColumn": {
-          "name": "Area Number",
-          "key": "area_num_1"
-        },
-        "nameColumn": {
-          "name": "Community Area Name",
-          "key": "ca_name"
-        },
-        "bounds": [
-          [
-            -87.9401,
-            41.6445
-          ],
-          [
-            -87.5241,
-            42.023
-          ]
-        ],
-        "tilesets": [
-          {
-            "type": "fill",
-            "source": {
-              "type": "vector",
-              "url": "mapbox://districtr.chicago_community_areas"
-            },
-            "sourceLayer": "chicago_community_areas"
-          },
-          {
-            "type": "circle",
-            "source": {
-              "type": "vector",
-              "url": "mapbox://districtr.chicago_community_areas_points"
-            },
-            "sourceLayer": "chicago_community_areas_points"
-          }
-        ]
-      },
-      {
-        "id": "blocks",
+        "id": "blocks_fakedata",
         "name": "Blocks",
         "unitType": "Blocks",
         "columnSets": [
@@ -479,66 +15,66 @@
             "total": {
               "key": "p20_totpop",
               "name": "Total population",
-              "sum": 2686394,
-              "min": 0,
-              "max": 8677
+              "sum": 139717100,
+              "min": 600,
+              "max": 6800
             },
             "subgroups": [
               {
                 "key": "p20_nh_wh",
                 "name": "White population",
-                "sum": 889444,
+                "sum": 17412400,
                 "min": 0,
-                "max": 1984
+                "max": 900
               },
               {
                 "key": "p20_nh_aa",
                 "name": "Black population",
-                "sum": 787967,
+                "sum": 17536200,
                 "min": 0,
-                "max": 5563
+                "max": 900
               },
               {
                 "key": "p20_h_tot",
                 "name": "Hispanic population",
-                "sum": 779164,
+                "sum": 17495800,
                 "min": 0,
-                "max": 2343
+                "max": 900
               },
               {
                 "key": "p20_nh_asi",
                 "name": "Asian population",
-                "sum": 173850,
+                "sum": 17493000,
                 "min": 0,
-                "max": 1011
+                "max": 900
               },
               {
                 "key": "p20_nh_ai",
                 "name": "American Indian population",
-                "sum": 2944,
+                "sum": 17418600,
                 "min": 0,
-                "max": 113
+                "max": 900
               },
               {
                 "key": "p20_nh_pac",
                 "name": "Native Hawaiian and Pacific Islander population",
-                "sum": 353,
+                "sum": 17435100,
                 "min": 0,
-                "max": 7
+                "max": 900
               },
               {
                 "key": "p20_nh_tom",
                 "name": "Two or more races",
-                "sum": 47355,
+                "sum": 17467200,
                 "min": 0,
-                "max": 214
+                "max": 900
               },
               {
                 "key": "p20_nh_oth",
                 "name": "Other races",
-                "sum": 5123,
+                "sum": 17458800,
                 "min": 0,
-                "max": 68
+                "max": 900
               }
             ]
           }
@@ -562,44 +98,29 @@
             "type": "fill",
             "source": {
               "type": "vector",
-              "url": "mapbox://kaytwo.chicago_blocks"
+              "url": "mapbox://kaytwo.chicago_blocks_fakedata"
             },
-            "sourceLayer": "chicago_blocks"
+            "sourceLayer": "chicago_blocks_fakedata"
           },
           {
             "type": "circle",
             "source": {
               "type": "vector",
-              "url": "mapbox://kaytwo.chicago_blocks_points"
+              "url": "mapbox://kaytwo.chicago_blocks_fakedata_points"
             },
-            "sourceLayer": "chicago_blocks_points"
+            "sourceLayer": "chicago_blocks_fakedata_points"
           }
         ]
       }
     ],
-    "name": "Chicago",
-    "state": "Illinois",
-    "id": "chicago",
     "districtingProblems": [
       {
-        "numberOfParts": 50,
-        "pluralNoun": "Wards",
+        "name": "City Council",
         "units": [
-          "precincts",
-          "blocks"
+          "blocks_fakedata"
         ],
-        "name": "City Council"
-      },
-      {
-        "numberOfParts": 10,
-        "pluralNoun": "Multi-member Wards",
-        "name": "City Council"
-      },
-      {
         "numberOfParts": 50,
-        "type": "multimember",
-        "pluralNoun": "City Council Seats",
-        "name": "City Council"
+        "pluralNoun": "Wards"
       }
     ]
   },
