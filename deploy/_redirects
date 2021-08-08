@@ -8,6 +8,7 @@
 /tag/* /tag.html 200
 /group/* /group.html 200
 /user_guide /guide
+/ /event.html 200!
 
 ## Landing Pages
 /alabama/*          /alabama.html 200
@@ -266,6 +267,10 @@
 /new/* /new.html
 /community/* /community.html
 /communities/* /community.html
+
+## Eval Page Redirects
+/eval/:place/:plan /eval?url=/assets/:place-plans/:plan.json
+/eval/* /eval.html 200
 
 ## Plan Redirects
 /lowell-districts /edit?url=/assets/plans/lowell-districts.json#plan
