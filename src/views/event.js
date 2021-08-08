@@ -340,8 +340,6 @@ share your map and your story using this tool now.</p>\
      <p><strong>To display your map on this page, be sure the tag &quot;Fresno&quot; is filled \
 out after you've clicked &quot;Save&quot; to share the map.</strong></p>",
 carc: "<p>Welcome to the Community of Interest and ward mapping tool for the <a href='https://chicagoswards.org' target='_blank'>Chicago Advisory Redistricting Commission</a>.</p>\
-<p>To let the commission know about your community and what brings it together, \
-share your map and your story using this tool.</p>\
 <p><strong>To display your map on this page, be sure the tag &quot;<b>carc</b>&quot; is filled \
 out after you've clicked &quot;Save&quot; to share the map.</strong></p>",
 nevadaco: "<p>Welcome to the Districtr Community of Interest public mapping tool for Nevada County’s 2021 supervisorial redistricting.<p>\
@@ -792,6 +790,7 @@ const longAbout = {
   carc: [
     "Chicago's ward boundaries must be redrawn every 10 years using U.S. Census data in order to make fifty wards of roughly equal population.",
     "This mapping module displays HaystaqDNA's projected 2020 population for each Census block in the city of Chicago.",
+    "This site is built using <a href='https://districtr.org/' target='_blank'>Districtr</a>, an open-source web app that empowers all people to draw districting plans.",
   ],
   nevadaco: [
     "Nevada County Board of Supervisor District Boundaries must be redrawn every 10 years using U.S. Census data in order to make the five districts as equal in population as possible and that each member represents about the same number of constituents. \
