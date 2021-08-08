@@ -9,7 +9,7 @@ import { listPlaces } from "../api/mockApi";
 
 
 // start draftskip at -16 so that we hide the drafts on initial load
-let skip = 0, draftskip = -16,
+let skip = 0, draftskip = 0,
     prevPlans = [],
     prevDrafts = [];
 
@@ -1166,7 +1166,7 @@ export default () => {
 
         let limitNum = 16;
         let eventurl = (window.location.hostname === "localhost")
-                    ? "/assets/sample_event.json"
+                    ? "/assets/sample_event.json?dummy=1"
                     : (`/.netlify/functions/eventRead?skip=0&limit=${limitNum + 1}&event=${eventCode}`);
 
         let showPlans = (data, drafts = false) => {
