@@ -8,7 +8,7 @@
 /tag/* /tag.html 200
 /group/* /group.html 200
 /user_guide /guide
-/ /event.html 200
+/ /event.html 200!
 
 ## Landing Pages
 /alabama/*          /alabama.html 200
