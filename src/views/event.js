@@ -47,6 +47,7 @@ const stateForEvent = {
   onelovemi: 'Michigan',
   saccounty: 'California',
   fresno: 'California',
+  carc: 'Illinois',
   fresnocity: 'California',
   nevadaco: 'California',
   sanmateoco: 'California',
@@ -121,6 +122,7 @@ const validEventCodes = {
   saccounty: 'sacramento',
   saccountymap: 'sacramento',
   fresno: 'ca_fresno',
+  carc: 'chicago',
   fresnocity: 'ca_fresno_ci',
   nevadaco: 'ca_nevada',
   sanmateoco: 'ca_sm_county',
@@ -171,7 +173,8 @@ const unitTypes = {
   "open-maps": {no: 'Precincts'},
   "fair-districts-oh": {no: 'Precincts'},
   grns: {no: '2011 Wards'},
-  'missouri-mapping': {no: 'Precincts'}
+  'missouri-mapping': {no: 'Precincts'},
+  carc: {yes: 'Blocks'}
 };
 
 const unitCounts = {
@@ -226,6 +229,7 @@ const hybrid_events = [
   'saccounty',
   'saccountymap',
   'fresno',
+  'carc',
   'fresnocity',
   'nevadaco',
   'sanmateoco',
@@ -334,6 +338,11 @@ out after you've clicked &quot;Save&quot; to share the map.</strong></p>\
      <p>To let the County know about your community and what brings it together, \
 share your map and your story using this tool now.</p>\
      <p><strong>To display your map on this page, be sure the tag &quot;Fresno&quot; is filled \
+out after you've clicked &quot;Save&quot; to share the map.</strong></p>",
+carc: "<p>Welcome to the Community of Interest and ward mapping tool for the <a href='https://chicagoswards.org' target='_blank'>Chicago Advisory Redistricting Commission</a>.</p>\
+<p>To let the commission know about your community and what brings it together, \
+share your map and your story using this tool.</p>\
+<p><strong>To display your map on this page, be sure the tag &quot;<b>carc</b>&quot; is filled \
 out after you've clicked &quot;Save&quot; to share the map.</strong></p>",
 nevadaco: "<p>Welcome to the Districtr Community of Interest public mapping tool for Nevada County’s 2021 supervisorial redistricting.<p>\
    <p>As part of the redistricting process, the California FAIR MAPS Act includes \
@@ -780,6 +789,10 @@ const longAbout = {
     "This mapping module displays projected 2020 population based on the American Community Survey data disaggregated onto Census blocks. \
     The data was prepared by National Demographics Corporation. To learn more about their team click <a href='https://www.ndcresearch.com/about-us/' target='_blank'>here</a>.",
   ],
+  carc: [
+    "Chicago's ward boundaries must be redrawn every 10 years using U.S. Census data in order to make fifty wards of roughly equal population.",
+    "This mapping module displays HaystaqDNA's projected 2020 population for each Census block in the city of Chicago.",
+  ],
   nevadaco: [
     "Nevada County Board of Supervisor District Boundaries must be redrawn every 10 years using U.S. Census data in order to make the five districts as equal in population as possible and that each member represents about the same number of constituents. \
     The County encourages residents to participate by suggesting neighborhood and community of interest maps of areas that should be kept undivided, and full five-district map suggestions for the whole county.",
@@ -861,7 +874,8 @@ export default () => {
     const eventCode = og_eventCode.toLowerCase();
 
     if (validEventCodes[eventCode]) {
-        document.getElementById("eventHeadline").innerText = og_eventCode;
+        if(eventCode != 'carc')
+            document.getElementById("eventHeadline").innerText = og_eventCode;
         if (coi_events.includes(eventCode)) {
             document.getElementById("introExplain").innerText = "Map Your Community";
             document.getElementById("introExplain").style.display = "block";

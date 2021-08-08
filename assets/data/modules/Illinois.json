@@ -577,17 +577,6 @@
           "blocks"
         ],
         "name": "City Council"
-      },
-      {
-        "numberOfParts": 10,
-        "pluralNoun": "Multi-member Wards",
-        "name": "City Council"
-      },
-      {
-        "numberOfParts": 50,
-        "type": "multimember",
-        "pluralNoun": "City Council Seats",
-        "name": "City Council"
       }
     ]
   },
