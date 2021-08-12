@@ -465,75 +465,75 @@
             "type": "population",
             "name": "Population",
             "total": {
-              "key": "p20_totpop",
+              "key": "P0010001",
               "name": "Total population",
-              "sum": 2686394,
+              "sum": 2746388,
               "min": 0,
-              "max": 8677
+              "max": 4689
             },
             "subgroups": [
               {
-                "key": "p20_nh_wh",
+                "key": "P0020005",
                 "name": "White population",
-                "sum": 889444,
+                "sum": 863622,
                 "min": 0,
-                "max": 1984
+                "max": 2040
               },
               {
-                "key": "p20_nh_aa",
+                "key": "P0020006",
                 "name": "Black population",
-                "sum": 787967,
+                "sum": 787551,
                 "min": 0,
-                "max": 5563
+                "max": 3482
               },
               {
-                "key": "p20_h_tot",
+                "key": "P0020002",
                 "name": "Hispanic population",
-                "sum": 779164,
+                "sum": 819518,
                 "min": 0,
-                "max": 2343
+                "max": 739
               },
               {
-                "key": "p20_nh_asi",
+                "key": "P0020008",
                 "name": "Asian population",
-                "sum": 173850,
+                "sum": 189857,
                 "min": 0,
-                "max": 1011
+                "max": 1075
               },
               {
-                "key": "p20_nh_ai",
+                "key": "P0020007",
                 "name": "American Indian population",
-                "sum": 2944,
+                "sum": 3332,
                 "min": 0,
-                "max": 113
+                "max": 13
               },
               {
-                "key": "p20_nh_pac",
+                "key": "P0020009",
                 "name": "Native Hawaiian and Pacific Islander population",
-                "sum": 353,
+                "sum": 529,
                 "min": 0,
-                "max": 7
+                "max": 8
               },
               {
-                "key": "p20_nh_tom",
+                "key": "P0020011",
                 "name": "Two or more races",
-                "sum": 47355,
+                "sum": 70443,
                 "min": 0,
-                "max": 214
+                "max": 138
               },
               {
-                "key": "p20_nh_oth",
+                "key": "P0020010",
                 "name": "Other races",
-                "sum": 5123,
+                "sum": 11536,
                 "min": 0,
-                "max": 68
+                "max": 44
               }
             ]
           }
         ],
         "idColumn": {
           "name": "2020 Census Block",
-          "key": "GEOID"
+          "key": "GEOID20"
         },
         "bounds": [
           [
