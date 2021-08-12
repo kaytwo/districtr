@@ -339,9 +339,11 @@ out after you've clicked &quot;Save&quot; to share the map.</strong></p>\
 share your map and your story using this tool now.</p>\
      <p><strong>To display your map on this page, be sure the tag &quot;Fresno&quot; is filled \
 out after you've clicked &quot;Save&quot; to share the map.</strong></p>",
-carc: "<p>Welcome to the Community of Interest and ward mapping tool for the <a href='https://chicagoswards.org' target='_blank'>Chicago Advisory Redistricting Commission</a>.</p>\
-<p><strong>To display your map on this page, be sure the tag &quot;<b>carc</b>&quot; is filled \
-out after you've clicked &quot;Save&quot; to share the map.</strong></p>",
+carc: "<p>Welcome to the Community of Interest and ward mapping tool used by the <a href='https://chicagoswards.org' target='_blank'>Chicago Advisory Redistricting Commission</a>.</p>\
+The Commission is using this tool to draw a fair and reasonable ward map that keeps communities together.\
+Want to try drawing a ward map yourself? You can! To draw a ward map, click the purple button below labeled '50 Wards Built out of Blocks.' We also need your input on the communities of Chicago - \
+you can draw a map of that too, and submit a link to it at <a href='https://chicagoswards.org/your-submissions'>the CARC submission portal</a>.\
+<p><strong>To display your map publicly on this page, be sure to click &quot;Share to Gallery&quot; after you've saved your map using the 'Save' button in the upper right hand corner of the app.</strong></p>",
 nevadaco: "<p>Welcome to the Districtr Community of Interest public mapping tool for Nevada County’s 2021 supervisorial redistricting.<p>\
    <p>As part of the redistricting process, the California FAIR MAPS Act includes \
    neighborhoods and “Communities of Interest” as important considerations. California law defines Communities of Interest as “a \
@@ -789,7 +791,7 @@ const longAbout = {
   ],
   carc: [
     "Chicago's ward boundaries must be redrawn every 10 years using U.S. Census data in order to make fifty wards of roughly equal population.",
-    "This mapping module displays HaystaqDNA's projected 2020 population for each Census block in the city of Chicago.",
+    "This mapping module displays Block level population according to the results of the 2020 Census.",
     "This site is built using <a href='https://districtr.org/' target='_blank'>Districtr</a>, an open-source web app that empowers all people to draw districting plans.",
   ],
   nevadaco: [
