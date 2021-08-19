@@ -792,7 +792,7 @@ const longAbout = {
   carc: [
     "Chicago's ward boundaries must be redrawn every 10 years using U.S. Census data in order to make fifty wards of roughly equal population.",
     "This mapping module displays Block level population according to the results of the 2020 Census.",
-    "This site is built using <a href='https://districtr.org/' target='_blank'>Districtr</a>, an open-source web app that empowers all people to draw districting plans.",
+    "This site was built by <a href='https://twitter.com/kaytwo' target='_blank'>Chris Kanich</a> using <a href='https://districtr.org/' target='_blank'>Districtr</a>, an open-source web app that empowers all people to draw districting plans.",
   ],
   nevadaco: [
     "Nevada County Board of Supervisor District Boundaries must be redrawn every 10 years using U.S. Census data in order to make the five districts as equal in population as possible and that each member represents about the same number of constituents. \
