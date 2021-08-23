@@ -1180,7 +1180,7 @@ export default () => {
               : prevPlans = prevPlans.concat(data.plans.filter(p => !((blockPlans[eventCode] || []).includes(p.simple_id))));
             const plans = [{
                 title: (eventCode === "missouri-mapping" ? "What community maps can look like" :
-                (drafts ? "Works in Progress" : "Public Gallery")),
+                (drafts ? "Community-submitted Works in Progress" : "Community-submitted Public Gallery")),
                 plans: drafts ? prevDrafts : prevPlans,
             }];
             let pinwheel = drafts ? "event-pinwheel-drafts" : "event-pinwheel";
@@ -1243,7 +1243,7 @@ const plansSection = (plans, eventCode, isProfessionalSamples) =>
                              They are intended for use as starting points for exploration. You can read more about their properties
                              in <a href='https://www.dropbox.com/s/o3654c9gkunfy6l/Wisconsin.pdf?dl=0' target='_blank'>this summary</a>,
                              which includes data on the plans.</b>`
-                        : "Click on any of the maps below to open it in Districtr.")
+                        : "These maps have been submitted by the public. You can look at or build off of them by clicking or tapping on each map description below.")
                       }
                 </p>` : null}
                 ${desc ? html`<h4>${desc}</h4>` : ""}
