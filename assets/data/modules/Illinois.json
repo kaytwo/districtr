@@ -465,7 +465,7 @@
             "type": "population",
             "name": "Population",
             "total": {
-              "key": "P0010001",
+              "key": "p20_totpop",
               "name": "Total population",
               "sum": 2746388,
               "min": 0,
@@ -473,60 +473,94 @@
             },
             "subgroups": [
               {
-                "key": "P0020005",
+                "key": "p20_nh_wh",
                 "name": "White population",
                 "sum": 863622,
                 "min": 0,
                 "max": 2040
               },
               {
-                "key": "P0020006",
+                "key": "p20_nh_aa",
                 "name": "Black population",
                 "sum": 787551,
                 "min": 0,
                 "max": 3482
               },
               {
-                "key": "P0020002",
+                "key": "p20_h_tot",
                 "name": "Hispanic population",
                 "sum": 819518,
                 "min": 0,
                 "max": 739
               },
               {
-                "key": "P0020008",
+                "key": "p20_nh_asi",
                 "name": "Asian population",
                 "sum": 189857,
                 "min": 0,
                 "max": 1075
               },
               {
-                "key": "P0020007",
+                "key": "p20_nh_ai",
                 "name": "American Indian population",
                 "sum": 3332,
                 "min": 0,
                 "max": 13
               },
               {
-                "key": "P0020009",
+                "key": "p20_nh_pac",
                 "name": "Native Hawaiian and Pacific Islander population",
                 "sum": 529,
                 "min": 0,
                 "max": 8
               },
               {
-                "key": "P0020011",
+                "key": "p20_nh_tom",
                 "name": "Two or more races",
                 "sum": 70443,
                 "min": 0,
                 "max": 138
               },
               {
-                "key": "P0020010",
+                "key": "p20_nh_oth",
                 "name": "Other races",
                 "sum": 11536,
                 "min": 0,
                 "max": 44
+              }
+            ]
+          },
+          {
+            "type": "population",
+            "name": "Citizen Voting Age Population",
+            "total": {
+              "key": "tot_cvap",
+              "name": "Total CVAP",
+              "sum": 1852758,
+              "min": 0,
+              "max": 8062
+            },
+            "subgroups": [
+              {
+                "key": "black_cvap",
+                "name": "Black CVAP",
+                "sum": 611171,
+                "min": 0,
+                "max": 5554
+              },
+              {
+                "key": "hisp_cvap",
+                "name": "Hispanic CVAP",
+                "sum": 384539,
+                "min": 0,
+                "max": 1594
+              },
+              {
+                "key": "asian_cvap",
+                "name": "Asian CVAP",
+                "sum": 101336,
+                "min": 0,
+                "max": 323
               }
             ]
           }
