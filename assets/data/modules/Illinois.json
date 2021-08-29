@@ -499,34 +499,6 @@
                 "sum": 189857,
                 "min": 0,
                 "max": 1075
-              },
-              {
-                "key": "p20_nh_ai",
-                "name": "American Indian population",
-                "sum": 3332,
-                "min": 0,
-                "max": 13
-              },
-              {
-                "key": "p20_nh_pac",
-                "name": "Native Hawaiian and Pacific Islander population",
-                "sum": 529,
-                "min": 0,
-                "max": 8
-              },
-              {
-                "key": "p20_nh_tom",
-                "name": "Two or more races",
-                "sum": 70443,
-                "min": 0,
-                "max": 138
-              },
-              {
-                "key": "p20_nh_oth",
-                "name": "Other races",
-                "sum": 11536,
-                "min": 0,
-                "max": 44
               }
             ]
           },
