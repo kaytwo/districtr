@@ -533,6 +533,20 @@
                 "sum": 101336,
                 "min": 0,
                 "max": 323
+              },
+              {
+                "key": "white_cvap",
+                "name": "White CVAP",
+                "sum": 738176,
+                "min": 0,
+                "max": 1684
+              },
+              {
+                "key": "nonwh_cvap",
+                "name": "Non-White CVAP",
+                "sum": 1114585,
+                "min": 0,
+                "max": 7165
               }
             ]
           }
